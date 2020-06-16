@@ -176,7 +176,7 @@
 
 .dropdown .dd {
     width: 210px;
-    display: none;
+    display: block;
     height: 465px;
     background-color: #c81623;
     margin-top: 2px;
@@ -277,6 +277,10 @@
 
 .mod_help dl dd {
     font-size: 12px;
+}
+
+.mod_help dl:last-child img {
+    width: 90px;
 }
 
 .mod_help dl:last-child {

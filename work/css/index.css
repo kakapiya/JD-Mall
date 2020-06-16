@@ -1,0 +1,276 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.news-hd {
+    height: 33px;
+    line-height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    padding: 0 15px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.news-hd .more {
+    float: right;
+    font-size: 13px;
+    color: #666666;
+}
+
+.news-hd .more::after {
+    float: right;
+    content: '\e920';
+    font-family: 'icomoon';
+}
+
+.news-bd {
+    padding: 5px 15px 0;
+}
+
+.news-bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    height: 209px;
+    /* background-color: purple; */
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    background-color: pink;
+    margin-top: 12px;
+    background: url(../image/icons.png) no-repeat -18px -15px;
+}
+
+.w .main .newsflash .bargin {
+    margin-top: 7px;
+}
+
+.recom {
+    margin-top: 10px;
+    height: 163px;
+    background-color: #ebebeb;
+}
+
+.recom_hd {
+    float: left;
+    height: 163px;
+    width: 205px;
+    background-color: #5c5251;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+    right: 0;
+    top: 10px;
+}
+
+/* 猜你喜欢 */
+
+.guess {
+    background-color: ffffff;
+    height: 291px;
+    border-bottom: 1px solid #ededed;
+}
+
+.guess .guess-hd {
+    padding-top: 30px;
+    height: 60px;
+}
+
+.guess .guess-hd h3 {
+    color: #333333;
+    font-size: 18px;
+    float: left;
+}
+
+.guess .guess-hd a {
+    margin-top: 5px;
+    float: right;
+    font-size: 12px;
+    color: #666666;
+}
+
+.guess .guess-hd a::after {
+    margin-left: 5px;
+    margin-right: 20px;
+    float: right;
+    content: '\ea2e';
+    font-family: 'icomoon';
+}
+
+.guess .guess-bd {
+    height: 234px;
+    width: 1203px;
+    border: 1px solid #ededed;
+}
+
+.guess .guess-bd ul li {
+    float: left;
+    width: 200px;
+    height: 230px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.guess .guess-bd ul li p {
+    color: #666666;
+    font-size: 12px;
+    padding: 0 25px;
+    border-right: 1px solid #ededed;
+}
+
+.guess .guess-bd ul li:last-of-type>P {
+    border: 0;
+}
+
+.guess .guess-bd .style_red {
+    color: #df3033;
+    font-size: 18px;
+}
+
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    padding: 0 15px;
+}
+
+.floor .w {
+    margin-top: 30px;
+}
+
+.box_bd {
+    height: 361px;
+    background-color: #ffffff;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.col_210 ul {
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    margin-right: 10px;
+    width: 85px;
+    height: 34px;
+    line-height: 33px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_329 img {
+    width: 329px;
+    height: 361px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ededed;
+}
+
+.col_221 img {
+    width: 219px;
+}
+
+.col_219 {
+    width: 219px;
+}
